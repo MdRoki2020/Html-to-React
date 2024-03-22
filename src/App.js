@@ -1,10 +1,10 @@
-import Header from "./common/Header";
+import HomeLayouts from "./Layouts/HomeLayouts";
 
 
 function App() {
   return (
     <div className="">
-      <Header />
+      <HomeLayouts />
     </div>
   );
 }

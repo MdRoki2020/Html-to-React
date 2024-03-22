@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <Fragment>
     <div class="loader">
         <div class="loader-inner">
             <div class="circle"></div>
@@ -73,7 +73,25 @@ const Header = () => {
 	</div>
 
 
-    </div>
+	<div class="search-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="close-btn"><i class="fas fa-window-close"></i></span>
+					<div class="search-bar">
+						<div class="search-bar-tablecell">
+							<h3>Search For:</h3>
+							<input type="text" placeholder="Keywords"/>
+							<button type="submit">Search <i class="fas fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    </Fragment>
   )
 }
 
