@@ -1,11 +1,11 @@
-import HomeLayouts from "./Layouts/HomeLayouts";
-
+import { Fragment } from 'react';
+import HomeLayout from './Layouts.jsx/HomeLayout';
 
 function App() {
   return (
-    <div className="">
-      <HomeLayouts />
-    </div>
+    <Fragment>
+      <HomeLayout />
+    </Fragment>
   );
 }
 

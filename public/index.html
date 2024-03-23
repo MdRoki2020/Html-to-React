@@ -1,73 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <head>
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
-	<!-- title -->
-	<title>Fruitkha</title>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&amp;display=swap" rel="stylesheet">
-	<!-- fontawesome -->
-	<link rel="stylesheet" href="assets/css/all.min.css">
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-	<!-- owl carousel -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.css">
-	<!-- magnific popup -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<!-- animate css -->
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<!-- mean menu css -->
-	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
-	<!-- main style -->
-	<link rel="stylesheet" href="assets/css/main.css">
-	<!-- responsive -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+    <title>React App</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png"/>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="assets/css/slicknav.css"/>
+    <link rel="stylesheet" href="assets/css/flaticon.css"/>
+    <link rel="stylesheet" href="assets/css/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/price_rangs.css"/>
+    <link rel="stylesheet" href="assets/css/magnific-popup.css"/>
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="assets/css/themify-icons.css"/>
+    <link rel="stylesheet" href="assets/css/slick.css"/>
+    <link rel="stylesheet" href="assets/css/nice-select.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+    <!-- <script nonce="908dad90-980c-4da4-a981-95b6be2156fa">
+      try {
+          (function(w, d) {
+              !function(lD, lE, lF, lG) {
+                  lD[lF] = lD[lF] || {};
+                  lD[lF].executed = [];
+                  lD.zaraz = {
+                      deferred: [],
+                      listeners: []
+                  };
+                  lD.zaraz.q = [];
+                  lD.zaraz._f = function(lH) {
+                      return async function() {
+                          var lI = Array.prototype.slice.call(arguments);
+                          lD.zaraz.q.push({
+                              m: lH,
+                              a: lI
+                          })
+                      }
+                  };
+                  for (const lJ of ["track", "set", "debug"]) lD.zaraz[lJ] = lD.zaraz._f(lJ);
+                  lD.zaraz.init = () => {
+                      var lK = lE.getElementsByTagName(lG)[0],
+                          lL = lE.createElement(lG),
+                          lM = lE.getElementsByTagName("title")[0];
+                      lM && (lD[lF].t = lE.getElementsByTagName("title")[0].text);
+                      lD[lF].x = Math.random();
+                      lD[lF].w = lD.screen.width;
+                      lD[lF].h = lD.screen.height;
+                      lD[lF].j = lD.innerHeight;
+                      lD[lF].e = lD.innerWidth;
+                      lD[lF].l = lD.location.href;
+                      lD[lF].r = lE.referrer;
+                      lD[lF].k = lD.screen.colorDepth;
+                      lD[lF].n = lE.characterSet;
+                      lD[lF].o = (new Date).getTimezoneOffset();
+                      if (lD.dataLayer)
+                          for (const lQ of Object.entries(Object.entries(dataLayer).reduce(((lR, lS) => ({
+                                  ...lR[1],
+                                  ...lS[1]
+                              })), {}))) zaraz.set(lQ[0], lQ[1], {
+                              scope: "page"
+                          });
+                      lD[lF].q = [];
+                      for (; lD.zaraz.q.length;) {
+                          const lT = lD.zaraz.q.shift();
+                          lD[lF].q.push(lT)
+                      }
+                      lL.defer = !0;
+                      for (const lU of [localStorage, sessionStorage]) Object.keys(lU || {}).filter((lW => lW.startsWith("_zaraz_"))).forEach((lV => {
+                          try {
+                              lD[lF]["z_" + lV.slice(7)] = JSON.parse(lU.getItem(lV))
+                          } catch {
+                              lD[lF]["z_" + lV.slice(7)] = lU.getItem(lV)
+                          }
+                      }));
+                      lL.referrerPolicy = "origin";
+                      lL.src = "assets/cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(lD[lF])));
+                      lK.parentNode.insertBefore(lL, lK)
+                  };
+                  ["complete", "interactive"].includes(lE.readyState) ? zaraz.init() : lD.addEventListener("DOMContentLoaded", zaraz.init)
+              }(w, d, "zarazData", "script");
+          })(window, document)
+      } catch (e) {
+          throw fetch("/cdn-cgi/zaraz/t"), e;
+      };
+  </script> -->
+  
+
+    
+
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-
-
-
     
-	<!-- jquery -->
-	<script src="assets/js/jquery-1.11.3.min.js"></script>
-	<!-- bootstrap -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- count down -->
-	<script src="assets/js/jquery.countdown.js"></script>
-	<!-- isotope -->
-	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
-	<!-- waypoints -->
-	<script src="assets/js/waypoints.js"></script>
-	<!-- owl carousel -->
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<!-- magnific popup -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<!-- mean menu -->
-	<script src="assets/js/jquery.meanmenu.min.js"></script>
-	<!-- sticker js -->
-	<script src="assets/js/sticker.js"></script>
-	<!-- main js -->
-	<script src="assets/js/main.js"></script>
+    <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/price_rangs.js"></script>
+
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/jquery.form.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/mail-script.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"868c74fa4bff7709","b":1,"version":"2024.3.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+    
   </body>
 </html>

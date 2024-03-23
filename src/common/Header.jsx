@@ -3,92 +3,122 @@ import React, { Fragment } from 'react'
 const Header = () => {
   return (
     <Fragment>
-    <div class="loader">
-        <div class="loader-inner">
-            <div class="circle"></div>
+        <div id="preloader-active">
+            <div class="preloader d-flex align-items-center justify-content-center">
+                <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                <img src="assets/img/icon/loder.png" alt="loder"/>
+                </div>
+                </div>
+            </div>
         </div>
-    </div>
 
 
-	<div class="top-header-area" id="sticker">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-sm-12 text-center">
-					<div class="main-menu-wrap">
-						<div class="site-logo">
-							<a href="index-2.html">
-								<img src="assets/img/logo.png" alt=""/>
-							</a>
-						</div>
 
-						<nav class="main-menu">
-							<ul>
-								<li class="current-list-item"><a href="#">Home</a>
-									<ul class="sub-menu">
-										<li><a href="index-2.html">Static Home</a></li>
-										<li><a href="index_2.html">Slider Home</a></li>
-									</ul>
-								</li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="#">Pages</a>
-									<ul class="sub-menu">
-										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="news.html">News</a></li>
-										<li><a href="shop.html">Shop</a></li>
-									</ul>
-								</li>
-								<li><a href="news.html">News</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
-									<ul class="sub-menu">
-										<li><a href="shop.html">Shop</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
-										<li><a href="cart.html">Cart</a></li>
-									</ul>
-								</li>
-								<li>
-									<div class="header-icons">
-										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-									</div>
-								</li>
-							</ul>
-						</nav>
-						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-						<div class="mobile-menu"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <header>
+        <div class="header-area">
+        <div class="header-top d-none d-sm-block">
+        <div class="container">
+        <div class="row">
+        <div class="col-xl-12">
+        <div class="d-flex justify-content-between flex-wrap align-items-center">
+        <div class="header-info-left">
+        <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Careers</a></li>
+        </ul>
+        </div>
+        <div class="header-info-right d-flex">
+        <ul class="order-list">
+        <li><a href="#">My Wishlist</a></li>
+        <li><a href="#">Track Your Order</a></li>
+        </ul>
+        <ul class="header-social">
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        <li> <a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="header-mid header-sticky">
+        <div class="container">
+        <div class="menu-wrapper">
+
+        <div class="logo">
+        <a href="index.html"><img src="assets/img/logo/logo.png" alt/></a>
+        </div>
+
+        <div class="main-menu d-none d-lg-block">
+        <nav>
+        <ul id="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="categories.html">Men</a></li>
+        <li><a href="categories.html">Women</a></li>
+        <li class="new"><a href="categories.html">Baby Collection</a></li>
+        <li><a href="#">Pages <i class="fas fa-angle-down"></i></a>
+        <ul class="submenu">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="pro-details.html">Product Details</a></li>
+        <li><a href="checkout.html">Product Checkout</a></li>
+        </ul>
+        </li>
+        <li><a href="blog.html">Blog</a>
+        <ul class="submenu">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="elements.html">Element</a></li>
+        <li><a href="blog-details.html">Blog Details</a></li>
+        </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+        </div>
+
+        <div class="header-right">
+        <ul>
+        <li>
+        <div class="nav-search search-switch hearer_icon">
+        <a id="search_1" href="javascript:void(0)">
+        <span class="flaticon-search"></span>
+        </a>
+        </div>
+        </li>
+        <li> <a href="login.html"><span class="flaticon-user"></span></a></li>
+        <li class="cart"><a href="cart.html"><span class="flaticon-shopping-cart"></span></a> </li>
+        </ul>
+        </div>
+        </div>
+
+        <div class="search_input" id="search_input_box">
+        <form class="search-inner d-flex justify-content-between ">
+        <input type="text" class="form-control" id="search_input" placeholder="Search Here"/>
+        <button type="submit" class="btn"></button>
+        <span class="ti-close" id="close_search" title="Close Search"></span>
+        </form>
+        </div>
+
+        <div class="col-12">
+        <div class="mobile_menu d-block d-lg-none"></div>
+        </div>
+        </div>
+        </div>
+        <div class="header-bottom text-center">
+        <p>Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer <a href="#" class="browse-btn">Shop Now</a></p>
+        </div>
+        </div>
+    </header>
 
 
-	<div class="search-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
-					<div class="search-bar">
-						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords"/>
-							<button type="submit">Search <i class="fas fa-search"></i></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 
     </Fragment>
