@@ -1,140 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Shop | eCommers</title>
-    <meta name="description" content>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png"/>
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Eflyer</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <!-- fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+   <!-- font awesome -->
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- owl stylesheets -->
+   <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+   <link rel="stylesoeet" href="assets/css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="assets/css/slicknav.css"/>
-    <link rel="stylesheet" href="assets/css/flaticon.css"/>
-    <link rel="stylesheet" href="assets/css/animate.min.css"/>
-    <link rel="stylesheet" href="assets/css/price_rangs.css"/>
-    <link rel="stylesheet" href="assets/css/magnific-popup.css"/>
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css"/>
-    <link rel="stylesheet" href="assets/css/themify-icons.css"/>
-    <link rel="stylesheet" href="assets/css/slick.css"/>
-    <link rel="stylesheet" href="assets/css/nice-select.css"/>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+  <div id="root"></div>
 
-    <!-- <script nonce="908dad90-980c-4da4-a981-95b6be2156fa">
-      try {
-          (function(w, d) {
-              !function(lD, lE, lF, lG) {
-                  lD[lF] = lD[lF] || {};
-                  lD[lF].executed = [];
-                  lD.zaraz = {
-                      deferred: [],
-                      listeners: []
-                  };
-                  lD.zaraz.q = [];
-                  lD.zaraz._f = function(lH) {
-                      return async function() {
-                          var lI = Array.prototype.slice.call(arguments);
-                          lD.zaraz.q.push({
-                              m: lH,
-                              a: lI
-                          })
-                      }
-                  };
-                  for (const lJ of ["track", "set", "debug"]) lD.zaraz[lJ] = lD.zaraz._f(lJ);
-                  lD.zaraz.init = () => {
-                      var lK = lE.getElementsByTagName(lG)[0],
-                          lL = lE.createElement(lG),
-                          lM = lE.getElementsByTagName("title")[0];
-                      lM && (lD[lF].t = lE.getElementsByTagName("title")[0].text);
-                      lD[lF].x = Math.random();
-                      lD[lF].w = lD.screen.width;
-                      lD[lF].h = lD.screen.height;
-                      lD[lF].j = lD.innerHeight;
-                      lD[lF].e = lD.innerWidth;
-                      lD[lF].l = lD.location.href;
-                      lD[lF].r = lE.referrer;
-                      lD[lF].k = lD.screen.colorDepth;
-                      lD[lF].n = lE.characterSet;
-                      lD[lF].o = (new Date).getTimezoneOffset();
-                      if (lD.dataLayer)
-                          for (const lQ of Object.entries(Object.entries(dataLayer).reduce(((lR, lS) => ({
-                                  ...lR[1],
-                                  ...lS[1]
-                              })), {}))) zaraz.set(lQ[0], lQ[1], {
-                              scope: "page"
-                          });
-                      lD[lF].q = [];
-                      for (; lD.zaraz.q.length;) {
-                          const lT = lD.zaraz.q.shift();
-                          lD[lF].q.push(lT)
-                      }
-                      lL.defer = !0;
-                      for (const lU of [localStorage, sessionStorage]) Object.keys(lU || {}).filter((lW => lW.startsWith("_zaraz_"))).forEach((lV => {
-                          try {
-                              lD[lF]["z_" + lV.slice(7)] = JSON.parse(lU.getItem(lV))
-                          } catch {
-                              lD[lF]["z_" + lV.slice(7)] = lU.getItem(lV)
-                          }
-                      }));
-                      lL.referrerPolicy = "origin";
-                      lL.src = "assets/cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(lD[lF])));
-                      lK.parentNode.insertBefore(lL, lK)
-                  };
-                  ["complete", "interactive"].includes(lE.readyState) ? zaraz.init() : lD.addEventListener("DOMContentLoaded", zaraz.init)
-              }(w, d, "zarazData", "script");
-          })(window, document)
-      } catch (e) {
-          throw fetch("/cdn-cgi/zaraz/t"), e;
-      };
-  </script> -->
-  
-
-    
-
-
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-
-    <div id="root"></div>
-    
-    <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/jquery.slicknav.min.js"></script>
-    
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/price_rangs.js"></script>
-    
-    <script src="assets/js/contact.js"></script>
-    <script src="assets/js/jquery.form.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/mail-script.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-    
-        gtag('config', 'UA-23581568-13');
-    </script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"868c74fa4bff7709","b":1,"version":"2024.3.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 
-    </script>
-    
-  </body>
+  <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+  </script>
+</body>
 </html>
