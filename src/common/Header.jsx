@@ -3,121 +3,145 @@ import React, { Fragment } from 'react'
 const Header = () => {
   return (
     <Fragment>
-        <div id="preloader-active">
-            <div class="preloader d-flex align-items-center justify-content-center">
-                <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                <img src="assets/img/icon/loder.png" alt="loder"/>
-                </div>
+    <div id="main-wrapper" class="section">
+
+    <div class="header-section section">
+       
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <div class="header-top-wrapper">
+                            <div class="row">
+
+                                <div class="header-social col-md-4 col-12">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                                </div>
+
+                                <div class="header-logo col-md-4 col-12">
+                                    <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"/></a>
+                                </div>
+
+                                <div class="account-menu col-md-4 col-12">
+                                    <ul>
+                                        <li><a href="#">My Account</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                        <li><a href="#" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i><span class="num">2</span></a>
+                                            
+                                            <div class="mini-cart-brief dropdown-menu text-left">
+                                                <div class="all-cart-product clearfix">
+                                                    <div class="single-cart clearfix">
+                                                        <div class="cart-image">
+                                                            <a href="product-details.html"><img src="img/cart/1.jpg" alt=""/></a>
+                                                        </div>
+                                                        <div class="cart-info">
+                                                            <h5><a href="product-details.html">Holiday Candle</a></h5>
+                                                            <p>1 x £9.00</p>
+                                                            <a href="#" class="cart-delete" title="Remove this item"><i class="fa fa-trash-o"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="single-cart clearfix">
+                                                        <div class="cart-image">
+                                                            <a href="product-details.html"><img src="img/cart/2.jpg" alt=""/></a>
+                                                        </div>
+                                                        <div class="cart-info">
+                                                            <h5><a href="product-details.html">Christmas Tree</a></h5>
+                                                            <p>1 x £9.00</p>
+                                                            <a href="#" class="cart-delete" title="Remove this item"><i class="fa fa-trash-o"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-totals">
+                                                    <h5>Total <span>£12.00</span></h5>
+                                                </div>
+                                                <div class="cart-bottom  clearfix">
+                                                    <a href="checkout.html">Check out</a>
+                                                </div>
+                                            </div>
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
+        
+        <div class="header-bottom section">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="header-bottom-wrapper text-center col">
+
+                        <div class="header-bottom-logo">
+                            <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"/></a>
+                        </div>
+
+                        <nav id="main-menu" class="main-menu">
+                            <ul>
+                                <li class="active"><a href="index.html">home</a></li>
+                                <li><a href="shop.html">shop</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="shop.html">shop page</a></li>
+                                        <li><a href="product-details.html">product details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="#">pages</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="cart.html">cart</a></li>
+                                        <li><a href="checkout.html">checkout</a></li>
+                                        <li><a href="wishlist.html">wishlist</a></li>
+										<li><a href="under-construction.html">Under Construction</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html">blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">blog page</a></li>
+                                        <li><a href="blog-details.html">blog details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="header-search">
+                            
+                            <button class="search-toggle"><i class="ion-ios-search-strong"></i></button>
+                            
+                            <div class="header-search-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Search..."/>
+                                    <button><i class="ion-ios-search-strong"></i></button>
+                                </form>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="mobile-menu section d-md-none"></div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+       
+    
 
 
-
-    <header>
-        <div class="header-area">
-        <div class="header-top d-none d-sm-block">
-        <div class="container">
-        <div class="row">
-        <div class="col-xl-12">
-        <div class="d-flex justify-content-between flex-wrap align-items-center">
-        <div class="header-info-left">
-        <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Careers</a></li>
-        </ul>
-        </div>
-        <div class="header-info-right d-flex">
-        <ul class="order-list">
-        <li><a href="#">My Wishlist</a></li>
-        <li><a href="#">Track Your Order</a></li>
-        </ul>
-        <ul class="header-social">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-        <li> <a href="#"><i class="fab fa-youtube"></i></a></li>
-        </ul>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        <div class="header-mid header-sticky">
-        <div class="container">
-        <div class="menu-wrapper">
-
-        <div class="logo">
-        <a href="index.html"><img src="assets/img/logo/logo.png" alt/></a>
-        </div>
-
-        <div class="main-menu d-none d-lg-block">
-        <nav>
-        <ul id="navigation">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="categories.html">Men</a></li>
-        <li><a href="categories.html">Women</a></li>
-        <li class="new"><a href="categories.html">Baby Collection</a></li>
-        <li><a href="#">Pages <i class="fas fa-angle-down"></i></a>
-        <ul class="submenu">
-        <li><a href="login.html">Login</a></li>
-        <li><a href="cart.html">Cart</a></li>
-        <li><a href="pro-details.html">Product Details</a></li>
-        <li><a href="checkout.html">Product Checkout</a></li>
-        </ul>
-        </li>
-        <li><a href="blog.html">Blog</a>
-        <ul class="submenu">
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="elements.html">Element</a></li>
-        <li><a href="blog-details.html">Blog Details</a></li>
-        </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-        </ul>
-        </nav>
-        </div>
-
-        <div class="header-right">
-        <ul>
-        <li>
-        <div class="nav-search search-switch hearer_icon">
-        <a id="search_1" href="javascript:void(0)">
-        <span class="flaticon-search"></span>
-        </a>
-        </div>
-        </li>
-        <li> <a href="login.html"><span class="flaticon-user"></span></a></li>
-        <li class="cart"><a href="cart.html"><span class="flaticon-shopping-cart"></span></a> </li>
-        </ul>
-        </div>
-        </div>
-
-        <div class="search_input" id="search_input_box">
-        <form class="search-inner d-flex justify-content-between ">
-        <input type="text" class="form-control" id="search_input" placeholder="Search Here"/>
-        <button type="submit" class="btn"></button>
-        <span class="ti-close" id="close_search" title="Close Search"></span>
-        </form>
-        </div>
-
-        <div class="col-12">
-        <div class="mobile_menu d-block d-lg-none"></div>
-        </div>
-        </div>
-        </div>
-        <div class="header-bottom text-center">
-        <p>Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer <a href="#" class="browse-btn">Shop Now</a></p>
-        </div>
-        </div>
-    </header>
-
+    </div>
 
 
 
