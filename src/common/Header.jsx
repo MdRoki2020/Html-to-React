@@ -142,7 +142,8 @@ const Header = () => {
        
     <div class="hero-slider section fix">
 
-        <div class="hero-item" style="background-image: url(img/hero/1.jpg)">
+        <div class="hero-item" style={{backgroundImage: "url(img/hero/1.jpg)"}}>
+
 
             <div class="hero-content text-center m-auto">
 
@@ -156,7 +157,7 @@ const Header = () => {
 
         </div>
 
-        <div class="hero-item" style="background-image: url(img/hero/2.jpg)">
+        <div class="hero-item" style={{backgroundImage: "url(img/hero/2.jpg)"}}>
 
             <div class="hero-content text-center m-auto">
 
@@ -206,7 +207,7 @@ const Header = () => {
     </div>
     
        
-    <div class="product-section section pt-70 pb-60">
+    {/* <div class="product-section section pt-70 pb-60">
         <div class="container">
            
             <div class="row">
@@ -430,10 +431,10 @@ const Header = () => {
             </div>
             
         </div>
-    </div>
+    </div> */}
     
        
-    <div class="testimonial-section section bg-gray pt-100 pb-65" style="background-image: url(img/bg/testimonial.png)">
+    {/* <div class="testimonial-section section bg-gray pt-100 pb-65" style="background-image: url(img/bg/testimonial.png)">
         <div class="container">
            
             <div class="row">
@@ -471,10 +472,10 @@ const Header = () => {
             </div>
             
         </div>
-    </div>
+    </div> */}
     
        
-    <div class="newsletter-section section pt-100 pb-120">
+    {/* <div class="newsletter-section section pt-100 pb-120">
         <div class="container">
            
             <div class="row">
@@ -500,10 +501,10 @@ const Header = () => {
             </div>
             
         </div>
-    </div>
+    </div> */}
     
        
-    <div class="blog-section section bg-gray pt-100 pb-60">
+    {/* <div class="blog-section section bg-gray pt-100 pb-60">
         <div class="container">
            
             <div class="row">
@@ -571,10 +572,10 @@ const Header = () => {
             </div>
             
         </div>
-    </div>
+    </div> */}
     
        
-    <div class="footer-section section bg-dark" style="background-image: url(img/bg/footer-bg.png)">
+    {/* <div class="footer-section section bg-dark" style="background-image: url(img/bg/footer-bg.png)">
         <div class="container">
             
             <div class="row">
@@ -643,7 +644,7 @@ const Header = () => {
             </div>
             
         </div>
-    </div>
+    </div> */}
     
 
 </div>
