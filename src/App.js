@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
-import HomeLayout from './Layouts.jsx/HomeLayout';
+import Home from './Page/Home';
 
 function App() {
   return (
     <Fragment>
-      <HomeLayout />
+      <Home />
     </Fragment>
   );
 }
