@@ -20,7 +20,7 @@ const Home = () => {
                         <a className="nav-link" href="about.html">About</a>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link" href="what-we.html">What we do</a>
+                        <a className="nav-link" href="what-we.html">What we do..</a>
                      </li>
                      <li className="nav-item">
                         <a className="nav-link" href="blog.html">Blog</a>
