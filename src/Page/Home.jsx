@@ -26,7 +26,7 @@ const Home = () => {
                         <a className="nav-link" href="blog.html">Blog</a>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link" href="contact.html">Contact Us</a>
+                        <a className="nav-link" href="contact.html">Contact</a>
                      </li>
                   </ul>
                   <form className="form-inline my-2 my-lg-0">
