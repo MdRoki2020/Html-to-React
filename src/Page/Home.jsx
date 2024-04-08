@@ -20,13 +20,13 @@ const Home = () => {
                         <a className="nav-link" href="about.html">About</a>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link" href="what-we.html">What we do..</a>
+                        <a className="nav-link" href="what-we.html">What we do</a>
                      </li>
                      <li className="nav-item">
                         <a className="nav-link" href="blog.html">Blog</a>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link" href="contact.html">Contact</a>
+                        <a className="nav-link" href="contact.html">Contact us</a>
                      </li>
                   </ul>
                   <form className="form-inline my-2 my-lg-0">
