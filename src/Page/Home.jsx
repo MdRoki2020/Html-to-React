@@ -32,7 +32,7 @@ const Home = () => {
                   <form className="form-inline my-2 my-lg-0">
                      <div className="login_bt">
                         <ul>
-                           <li><a href="#"><span className="user_icon"><i className="fa fa-user" aria-hidden="true"></i></span>Login</a></li>
+                           <li><a href="#"><span className="user_icon"><i className="fa fa-user" aria-hidden="true"></i></span>Login....</a></li>
                            <li><a href="#"><i className="fa fa-search" aria-hidden="true"></i></a></li>
                         </ul>
                      </div>
