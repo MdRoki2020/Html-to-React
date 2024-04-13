@@ -33,7 +33,7 @@ const Home = () => {
                      <div className="login_bt">
                         <ul>
                            <li><a href="#"><span className="user_icon"><i className="fa fa-user" aria-hidden="true"></i></span>Login....</a></li>
-                           <li><a href="#"><i className="fa fa-search" aria-hidden="true"></i></a></li>
+                           {/* <li><a href="#"><i className="fa fa-search" aria-hidden="true"></i></a></li> */}
                         </ul>
                      </div>
                   </form>
