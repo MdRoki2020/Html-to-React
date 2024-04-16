@@ -33,7 +33,6 @@ const Home = () => {
                      <div className="login_bt">
                         <ul>
                            <li><a href="#"><span className="user_icon"><i className="fa fa-user" aria-hidden="true"></i></span>Login....</a></li>
-                           {/* <li><a href="#"><i className="fa fa-search" aria-hidden="true"></i></a></li> */}
                         </ul>
                      </div>
                   </form>
@@ -110,7 +109,7 @@ const Home = () => {
                         <div className="right_arrow"><i className="fa fa-arrow-right"></i></div>
                      </div>
                      <div className="box_right">
-                        <p className="book_text">Book At</p>
+                        <p className="book_text">Book</p>
                         <h4 className="appoinment_text">Appoinment</h4>
                      </div>
                   </div>
