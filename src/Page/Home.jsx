@@ -109,7 +109,7 @@ const Home = () => {
                         <div className="right_arrow"><i className="fa fa-arrow-right"></i></div>
                      </div>
                      <div className="box_right">
-                        <p className="book_text">Book</p>
+                        <p className="book_text">Books</p>
                         <h4 className="appoinment_text">Appoinment</h4>
                      </div>
                   </div>
