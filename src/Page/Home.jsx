@@ -293,7 +293,7 @@ const Home = () => {
                         <figure><img src="images/service-img1.png"/></figure>
                      </div>
                      <div className="studies_box">
-                        <h3 className="introduction_text">Master of Law, 2010</h3>
+                        <h3 className="introduction_text">Master of Law, 2024</h3>
                      </div>
                      <div className="read_bt"><a href="#">Read More</a></div>
                   </div>
