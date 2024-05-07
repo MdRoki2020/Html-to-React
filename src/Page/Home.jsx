@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
 
-<div className="header_section">
+<div className="header_section">  
          <div className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                <a className="navbar-brand"href="index.html"><img src="images/logo.png"/></a>
@@ -283,7 +283,7 @@ const Home = () => {
          <div className="container">
             <div className="row">
                <div className="col-sm-12">
-                  <h1 className="studies_taital">Recent Case Studies</h1>
+                  <h1 className="studies_taital">Case Studies</h1>
                </div>
             </div>
             <div className="studies_section_2">
