@@ -509,7 +509,7 @@ const Home = () => {
 
       <div className="copyright_section">
          <div className="container">
-            <p className="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Roki</a></p>
+            <p className="copyright_text">2024 All Rights Reserved. Design by <a href="https://html.design">Roki</a></p>
          </div>
       </div>
 
