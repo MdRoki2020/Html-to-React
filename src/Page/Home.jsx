@@ -441,7 +441,7 @@ const Home = () => {
                      <i className="fa fa-arrow-right"></i>
                      </a>
                   </div>
-                  <h2 className="does_taital"> Does Marijuana Law Mean for You?</h2>
+                  <h2 className="does_taital"> Marijuana Law Mean for You?</h2>
                   <p className="dummy_text"> ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                </div>
             </div>
