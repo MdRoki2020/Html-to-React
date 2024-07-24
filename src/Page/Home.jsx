@@ -172,7 +172,7 @@ const Home = () => {
                                     <img src="images/icon-5.png" className="image_2"/>
                                  </div>
                                  <h3 className="corporate_text">Employments Law</h3>
-                                 <p className="chunks_text">the first true generator on the Internet. It uses a dictionary </p>
+                                 <p className="chunks_text"> first true generator on the Internet. It uses a dictionary </p>
                                  <div className="readmore_button active"><a href="#">Read More</a></div>
                               </div>
                            </div>
