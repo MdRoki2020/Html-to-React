@@ -329,7 +329,7 @@ const Home = () => {
                <div className="col-md-6">
                   <div className="about_text_main">
                      <h1 className="about_taital">About Us</h1>
-                     <p className="about_text"> embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                     <p className="about_text"> hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
                      <div className="readmore_bt"><a href="#">Read More</a></div>
                   </div>
                </div>
