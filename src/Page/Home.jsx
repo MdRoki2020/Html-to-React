@@ -48,7 +48,7 @@ const Home = () => {
                            <div className="col-md-6">
                               <div className="banner_taital_main">
                                  <h1 className="banner_taital">We Provide Law Practice</h1>
-                                 <p className="banner_text">This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem</p>
+                                 <p className="banner_text"> book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem</p>
                                  <div className="readmore_btn active"><a href="#">Read More</a></div>
                                  <div className="started_bt"><a href="#">Contact</a></div>
                               </div>
